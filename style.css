@@ -1,0 +1,1696 @@
+*
+{
+	margin: 0;
+	padding:  0;
+	/*Created by Severin Sebastian*/
+}
+
+.APP
+{
+	position: absolute;
+	width: 185px;
+	height: 61px;
+	left: 141.63px;
+	top: 69px;
+}
+
+.Meniu
+{
+	display: none;
+}
+
+.Caseta
+{
+	list-style-type: none;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	left: 1003px;
+	top: 79px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+.Logare
+{
+	position: relative;
+	width: 56px;
+	height: 20px;
+	left: 22px;
+	top: 10px;
+	border: none;
+	outline: none;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	background: none;
+	color: #92E3A9;
+	cursor: pointer;
+
+}
+
+.pos1
+{
+	list-style-type: none;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+	left: 1138px;
+	top: 89px;
+}
+.pos2
+{
+	list-style-type: none;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	left: 1263px;
+	top: 89px;
+
+}
+
+.CC
+{	
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	border: none;
+	outline: none;
+	color: #263238;
+	background: none;
+	cursor: pointer;
+
+
+}
+
+.TextPrincipal
+{
+	position: absolute;
+	width: 570px;
+	height: 115px;
+	left: 104px;
+	top: 321px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 121.1%;
+	color: #263238;
+}
+
+.TextSecundar
+{
+	position: absolute;
+	width: 535px;
+	height: 53px;
+	left: 104px;
+	top: 459px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+}
+
+.Butoane
+{
+	list-style-type: none;
+	list-style: inline;
+}
+
+.vsc
+{
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	/*transition: 200ms ease-in-out;*/
+	border-radius: 5px;
+	z-index: 10;
+	background: #FFFFFF;
+	width: 488px;
+	min-width: 315px;
+	/*max-width: 80%;*/
+}
+
+.vsc.active
+{
+	transform: translate(-50%, -50%) scale(1);
+}
+
+.vsc-header
+{
+	padding-right: 12.5px;
+	/*padding-top: 14px;*/
+	width: 488px;
+	height: 49px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	background: #92E3A9;
+}
+
+.vsc-header .title
+{
+	position: relative;
+	left: 36px;
+	top: 0px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+
+	color: #000000;
+
+	background: #92E3A9;
+}
+
+.vsc-header .close-button
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 50%;
+	color: #92E3A9;
+	background: #000000;
+
+}
+
+.vsc-body
+{
+	position: absolute;
+	width: 500.5px;
+	height: 641px;
+
+
+	background: #FFFFFF;
+	
+}
+
+.vsc-body .slct
+{
+	position: absolute;
+	width: 419.83px;
+	height: 40px;
+	left: 44.58px;
+	top: 35px;
+	border-radius: 5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	outline: none;
+	background: none;
+	border-color: #000000;
+	cursor: pointer;
+	color: #A8A8A8;
+}
+
+.vsc-body .TP
+
+{
+	position: absolute;
+	width: 419.83px;
+	height: 40px;
+	left: 44.58px;
+	top: 104px;
+
+	border: 1px solid #263238;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #A8A8A8;
+
+}
+
+.vsc-body .Incarca
+{
+	position: absolute;
+	width: 218.08px;
+	height: 40px;
+	left: 134.96px;
+	top: 162px;
+
+	background: #263238;
+	border-radius: 5px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #92E3A9;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.vsc-body .Chenar
+{
+	position: relative;
+	width: 100%;
+	height: 49px;
+	left: 0px;
+	top: 252px;
+
+	background: #92E3A9;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+    
+
+	color: #000000;
+
+}
+
+.vsc-body .Chenar .ChenarText
+{
+	position: relative;
+	width: 418px;
+	height: 27px;
+	left: 36px;
+	top: 14px;
+
+	
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+    
+
+	color: #000000;
+
+}
+
+
+
+.vsc-body #lista
+{
+	list-style-type: none;
+	position: absolute;
+	left: 40px;
+	top: 326px;
+	width: 450px;
+	max-height: 302px;
+	overflow-y:scroll;
+}
+.vsc-body #lista .a
+{
+	position: relative;
+	bottom:16px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+
+}
+.vsc-body #lista .b
+{
+	position: relative;
+	bottom: 16px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #92E3A9;
+
+}
+
+#overlay
+{
+	position: fixed;
+	opacity: 0;
+	/*transition: 200ms ease-in-out;*/
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .5);
+	pointer-events: none;
+}
+
+#overlay.active
+{
+	pointer-events: none;
+	opacity: 1;
+	z-index: 5;
+}
+
+.T1
+{
+	position: absolute;
+	width: 414px;
+	height: 38px;
+	left: 40px;
+	top: 408px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+}
+
+.Buton1
+{
+	position: absolute;
+	width: 176px;
+	height: 40px;
+	left: 104px;
+	top: 574px;
+
+	background: #263238;
+	border-radius: 5px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #92E3A9;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	
+
+}
+
+
+.Buton2
+{
+	position: absolute;
+	width: 269px;
+	height: 40px;
+	left: 314px;
+	top: 574px;
+
+	background: #92E3A9;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+.Font1
+{
+	position: relative;
+	width: 134px;
+	height: 20px;
+	left: 20px;
+	top: 10px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #92E3A9;
+}
+.Font2
+{
+	position: relative;
+	width: 234px;
+	height: 20px;
+	left: 30px;
+	top: 10px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+}
+.Imagine
+{
+	float: right;
+	width: 100%;
+	position: absolute;
+	width: auto;
+	max-height: 539.85px;
+	right: 143.61px;
+	top: 218.71px;
+}
+
+.Imagine2
+{
+	display: none;
+}
+
+.Dreptunghi
+{
+
+	position: absolute;
+	width: 100%;
+	height: 406px;
+	left: 0px;
+	top: 882px;
+
+	background: #92E3A9;
+}
+
+.TXT
+{
+	position: relative;
+	width: 1440px;
+	height: 63px;
+	left: 0px;
+	top: 49px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 121.1%;
+	text-align: center;
+
+	color: #263238;	
+}
+
+.txt
+{
+	position: absolute;
+	width: 229px;
+	height: 114px;
+	/*left: 273px;*/
+	top: 174px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+}
+
+.ul
+{
+	list-style: inline;
+}
+
+.scris
+{
+	position: relative;
+	width: 229px;
+	height: 167px;
+	left: 65px;
+	/*top: 1056px;*/
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+}
+
+.Patrat1
+{	
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 208px;
+	/*top: 1056px;*/
+	bottom: 182px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+.Patrat2
+{
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 573px;
+	/*top: 1056px;*/
+	bottom: 182px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+.Patrat3
+{
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 938px;
+	/*top: 1056px;*/
+	bottom: 182px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+.Numar
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 121.1%;
+
+	text-align: center;
+	color: #92E3A9;
+}
+
+.Dreptunghi2
+{
+	position: absolute;
+	width: 878px;
+	height: 426px;
+	left: 19.51388%;
+	right: 19.51388%;
+	top: 1397px;
+	vertical-align: middle
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+	border-radius: 5px;
+
+}
+
+.Dreptunghi2 #Smare
+{
+	position: relative;
+	width: 341px;
+	height: 118px;
+	left: 43px;
+	top: 34px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	line-height: 121.1%;
+	/* or 35px */
+
+
+	color: #263238;
+
+
+}
+
+.Dreptunghi2 #Smic
+{
+	position: relative;
+	width: 225px;
+	height: 86px;
+	left: 43px;
+	top: 51px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 121.1%;
+	/* or 19px */
+
+
+	color: #263238;
+}
+
+.Dreptunghi2 #nume
+{
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	left: 484px;
+	top: 59px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+	border-radius: 5px;
+}
+.Dreptunghi2 #numel
+{
+	position: absolute;
+	width: 57.17px;
+	height: 20px;
+	left: 484px;
+	top: 34px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+}
+
+.Dreptunghi2 #email
+{
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	left: 484px;
+	top: 149px;
+
+	border: 1px solid #263238;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.Dreptunghi2 #emaill
+{
+	position: absolute;
+	width: 54.83px;
+	height: 20px;
+	left: 484px;
+	top: 124px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+}
+
+.Dreptunghi2 #injuratura
+{
+	position: absolute;
+	max-width: 350px;
+	max-height: 82px;
+	min-width: 350px;
+	min-height: 82px;
+	left: 484px;
+	top: 239px;
+
+	border: 1px solid #263238;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.Dreptunghi2 #injuratural
+{
+	position: absolute;
+	width: 96.83px;
+	height: 20px;
+	left: 484px;
+	top: 214px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+}
+
+.Dreptunghi2 .trimite
+{
+	position: absolute;
+	width: 126px;
+	height: 40px;
+	left: 484px;
+	top: 349px;
+
+	background: #263238;
+	border-radius: 5px;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	color: #92E3A9;
+
+}
+
+.Dreptunghi3
+{
+	position: absolute;
+	width: 100%;
+	height: 129px;
+	left: 0px;
+	top: 1964px;
+	background: #263238;
+}
+
+.TextFinal
+{
+	position: absolute;
+	width: 1440px;
+	height: 38px;
+	bottom: 6px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 121.1%;
+
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.Logouri
+{
+	list-style-type: none;
+	list-style: inline;
+	position: relative;
+	width: 101px;
+	height: 35px;
+	left: 669px;
+	top: 25px;
+}
+
+.Logouri .buton{
+  position: absolute;
+  list-style-type: none;
+  list-style: inline;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 880px)
+{
+	.APP
+{
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	left: 33px;
+	top: 39px;
+
+}
+
+	.Meniu
+{
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 289px;
+	top: 39px;
+	cursor: pointer;
+}
+
+	.Caseta
+{
+	display: none;
+}
+
+	.Logare
+{
+	display: none;
+}
+
+	.pos1
+{
+	display: none;
+}
+	.pos2
+{
+	display: none;
+}
+
+	.CC
+{	
+	display: none;
+}
+
+	.TextPrincipal
+{
+	position: absolute;
+	width: 298px;
+	height: 115px;
+	left: 31px;
+	top: 153px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 121.1%;
+	/* or 34px */
+
+	text-align: center;
+
+	color: #263238;
+
+}
+
+	.TextSecundar
+{
+	position: absolute;
+	width: 298px;
+	height: 79px;
+	left: 31px;
+	top: 297px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #263238;
+
+}
+
+	.Butoane
+{
+	list-style-type: none;
+
+}
+	.Buton1
+{
+	position: absolute;
+	width: 298px;
+	height: 40px;
+	left: 31px;
+	top: 401px;
+
+	background: #263238;
+	border-radius: 5px
+}
+	.Buton2
+{
+	position: absolute;
+	width: 298px;
+	height: 40px;
+	left: 31px;
+	top: 454px;
+
+	background: #92E3A9;
+	border-radius: 5px;
+}
+	.Font1
+{
+	position: relative;
+	width: 134px;
+	height: 20px;
+	left: 84.86px;
+	top: 10px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #92E3A9;
+}
+	.Font2
+{
+	position: relative;
+	width: 234px;
+	height: 20px;
+	left: 50px;
+	top: 10px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+}
+
+	.Imagine
+{
+	display: none;
+}
+
+	.Imagine2
+{
+	display: block;
+	
+	position: absolute;
+	width: 297.5px;
+	height: 307.24px;
+	left: 31px;
+	top: 544px;
+
+}
+
+	.vsc.active
+{
+	transform: translate(-50%, -50%) scale(0.6);
+}
+
+	.Dreptunghi
+{
+
+	position: absolute;
+	width: 100%;
+	height: 648px;
+	top: 942px;
+
+	background: #92E3A9;
+}
+
+	.TXT
+{
+	position: absolute;
+	width: 360px;
+	height: 63px;
+	left: 0px;
+	top: 43px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 121.1%;
+	/* or 34px */
+
+	text-align: center;
+
+}
+
+	.ul
+{
+	list-style: none;
+}
+
+	.scris
+{
+	position: relative;
+	width: 229px;
+	height: 167px;
+	left: 65px;
+	/*top: 1056px;*/
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+}
+
+	.Patrat1
+{	
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 31px;
+	/*top: 1056px;*/
+	bottom: 462px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+	.Patrat2
+{
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 31px;
+	/*top: 1056px;*/
+	bottom: 318px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+	.Patrat3
+{
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 31px;
+	/*top: 1056px;*/
+	bottom: 154px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+	.Numar
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 121.1%;
+
+	text-align: center;
+	color: #92E3A9;
+}
+
+	.Dreptunghi2
+{
+	position: absolute;
+	width: 298px;
+	height: 635px;
+	left: 31px;
+	top: 1640px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+	border-radius: 5px;
+}
+
+	.Dreptunghi2 #Smare
+{
+	position: absolute;
+	width: 256px;
+	height: 88px;
+	left: 21px;
+	top: 34px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 121.1%;
+	/* or 24px */
+
+	text-align: center;
+
+	color: #263238;
+}
+
+	.Dreptunghi2 #Smic
+{
+		position: absolute;
+	width: 241px;
+	height: 86px;
+	left: 31px;
+	top: 137px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 121.1%;
+	/* or 19px */
+
+	text-align: center;
+
+	
+
+}
+
+	.Dreptunghi2 #nume
+{
+	position: absolute;
+	width: 256px;
+	height: 40px;
+	left: 21px;
+	top: 272px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+	border-radius: 5px;
+}
+	.Dreptunghi2 #numel
+{
+	position: absolute;
+	width: 143px;
+	height: 20px;
+	left: 21px;
+	top: 247px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+}
+
+	.Dreptunghi2 #email
+{
+	position: absolute;
+	width: 256px;
+	height: 40px;
+	left: 21px;
+	top: 360px;
+
+	border: 1px solid #263238;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+	.Dreptunghi2 #emaill
+{
+	position: absolute;
+	width: 143px;
+	height: 20px;
+	left: 21px;
+	top: 335px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+}
+
+	.Dreptunghi2 #injuratura
+{
+	position: absolute;
+	max-width: 256px;
+	max-height: 82px;
+	min-width: 256px;
+	min-height: 82px;
+	left: 21px;
+	top: 448px;
+
+	border: 1px solid #263238;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+	.Dreptunghi2 #injuratural
+{
+	position: absolute;
+	width: 143px;
+	height: 20px;
+	left: 31px;
+	top: 423px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+}
+
+	.Dreptunghi2 .trimite
+{
+	position: absolute;
+	width: 126px;
+	height: 40px;
+	left: 86px;
+	top: 563px;
+
+	background: #263238;
+	border-radius: 5px;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	color: #92E3A9;
+
+}
+
+	.Dreptunghi3
+{
+	position: relative;
+	width: 100%;
+	height: 218px;
+	left: 0px;
+	top: 2328px;
+
+	background: #263238;
+}
+
+	.TextFinal
+{
+	position: relative;
+	width: 360px;
+	height: 23px;
+	left: 0px;
+	top: 76px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 121.1%;
+	/* or 16px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+	.Logouri
+{
+	position: relative;
+	width: 101px;
+	height: 35px;
+	/*left: 130px;*/
+	left: 40%;
+	bottom: 166px;
+}
+
+}
+
+@media only screen and (max-width: 1250px)
+{
+	@media only screen and (min-width: 880px)
+	{
+	.APP
+{
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	left: 33px;
+	top: 39px;
+
+}
+
+	.Meniu
+{
+	display: none;
+}
+
+	.Caseta
+{
+	list-style-type: none;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	left: 400px;
+	top: 29px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+	.Logare
+{
+	position: relative;
+	width: 56px;
+	height: 20px;
+	left: 27px;
+	top: 10px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #92E3A9;
+
+}
+
+	.pos1
+{
+	list-style-type: none;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+	left: 535px;
+	top: 39px;
+}
+	.pos2
+{
+	list-style-type: none;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	left: 660px;
+	top: 39px;
+
+}
+
+	.CC
+{	
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+
+}
+
+	.TextPrincipal
+{
+	position: absolute;
+	width: 570px;
+	height: 115px;
+	left: 250px;
+	top: 153px;
+
+	text-align: center;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 121.1%;
+	color: #263238;
+}
+
+	.TextSecundar
+{
+	position: absolute;
+	width: 535px;
+	height: 53px;
+	left: 250px;
+	top: 297px;
+
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+}
+
+	.Butoane
+{
+	list-style-type: none;
+
+}
+	.Buton1
+{
+	position: absolute;
+	width: 298px;
+	height: 40px;
+	left: 381px;
+	top: 401px;
+
+	background: #263238;
+	border-radius: 5px
+}
+	.Buton2
+{
+	position: absolute;
+	width: 298px;
+	height: 40px;
+	left: 381px;
+	top: 454px;
+
+	background: #92E3A9;
+	border-radius: 5px;
+}
+	.Font1
+{
+	position: relative;
+	width: 134px;
+	height: 20px;
+	left: 84.86px;
+	top: 10px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #92E3A9;
+}
+	.Font2
+{
+	position: relative;
+	width: 234px;
+	height: 20px;
+	left: 50px;
+	top: 10px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #263238;
+
+}
+
+	.Imagine
+{
+	display: none;
+}
+
+	.Imagine2
+{
+	display: block;
+	
+	position: absolute;
+	width: 297.5px;
+	height: 307.24px;
+	left: 381px;
+	top: 544px;
+
+}
+
+	.Dreptunghi
+{
+
+	position: absolute;
+	width: 100%;
+	height: 648px;
+	top: 942px;
+
+	background: #92E3A9;
+}
+
+	.TXT
+{
+	position: absolute;
+	width: 360px;
+	height: 63px;
+	left: 300px;
+	top: 43px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 121.1%;
+	/* or 34px */
+
+	text-align: center;
+
+}
+
+	.ul
+{
+	list-style: none;
+}
+
+	.scris
+{
+	position: relative;
+	width: 229px;
+	height: 167px;
+	left: 65px;
+	/*top: 1056px;*/
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #263238;
+}
+
+	.Patrat1
+{	
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 31px;
+	/*top: 1056px;*/
+	bottom: 462px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+	.Patrat3
+{
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 31px;
+	/*top: 1056px;*/
+	bottom: 318px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+	.Patrat2
+{
+	list-style-type: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 573px;
+	/*top: 1056px;*/
+	bottom: 462px;
+
+	background: #263238;
+	border-radius: 5px;
+}
+
+	.Numar
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 121.1%;
+
+	text-align: center;
+	color: #92E3A9;
+}
+
+	.Dreptunghi2
+{
+	position: absolute;
+	width: 878px;
+	height: 426px;
+	left: 50px;
+	right: 19.51388%;
+	top: 1800px;
+	vertical-align: middle
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+	border-radius: 5px;
+
+}
+
+	.Dreptunghi3
+{
+	position: relative;
+	width: 100%;
+	height: 218px;
+	left: 0px;
+	top: 2328px;
+
+	background: #263238;
+}
+
+	.TextFinal
+{
+	position: relative;
+	width: 360px;
+	height: 23px;
+	left: 350px;
+	top: 76px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 121.1%;
+	/* or 16px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+	.Logouri
+{
+	position: relative;
+	width: 101px;
+	height: 35px;
+	/*left: 130px;*/
+	left: 40%;
+	bottom: 166px;
+}
+}
+/*Created by Severin Sebastian*/
+}

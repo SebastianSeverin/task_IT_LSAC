@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script defer src="script.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<img src="APP.png" class="APP">
+		<div>
+			<ul>
+				<li class="Caseta">
+					<button class="Logare">Logare</button> 	
+				</li>
+				<li class="pos1"> 
+					<button class="CC">Creeare cont</button>
+						
+					
+				</li>
+				<li class="pos2">
+					<button class="CC">Contact</button>
+					
+				</li>						
+			</ul>
+	
+		</div>
+
+		<p class="TextPrincipal">Cumpăratul de teme nu a fost niciodată mai simplu!</p>
+		<p class="TextSecundar">Platforma ideala pentru studenții de la Politehnică cu portofele pline, care au nevoie urgent de un înger care să le repare nota de intrare în examen.</p>
+		<ul class="Butoane">
+			
+			<li class="Buton2"><p class="Font2">Vreau sa fac teme pentru alții</p></li>
+		</ul>
+
+		<button data-vsc-target="#vsc" class="Buton1" id="Buton1" onclick="addSelect('select-container');">Vreau să cumpăr</button>
+		<div class="vsc" id="vsc">
+			<div class="vsc-header">
+				<div class="title">Exprimă-ți frustrările</div>
+				<button data-close-button class="close-button">&times;</button>
+			</div>
+
+			<div class="vsc-body">
+							
+				
+				<form id="frm1">
+					<div id="select-container">
+					</div>	
+					<input type="text" id="TP" class="TP" value="Titlul proiectului" onfocus="this.value=''">
+					<div class="Chenar"><p class="ChenarText">Plângeri introduse până acum.</p></div>	
+				<ul id="lista"></ul>
+				</form>
+
+				<button id="BTN" class="Incarca" onclick="Projectupdt('lista');">Încarcă</button>
+
+
+
+			</div>
+		</div>
+
+		<div id="overlay"></div>
+
+		<div class="Imagine">
+			<img src="IMG.png">
+		</div>
+
+		<div class="Imagine2">
+			<img src="IMG2.png">
+		</div>
+
+		<div class="Meniu">
+			<img src="Menu.png">
+		</div>
+
+		<div class="Dreptunghi">
+				<p class="TXT">Cum functioneaza?</p>
+				<ul>
+					<li class="Patrat1"><div >
+						<p class="Numar">1</p>
+					</div>
+					<p class="scris">Realizezi un cont pe platformă în care introduci câteva detalii personale (nu vă faceți griji, profesorii nu or să va descopere) și materiile la care ai nevoie de ajutor.</p></li>
+					<li class="Patrat2"><div>
+						<p class="Numar">2</p>
+					</div>
+					<p class="scris">Străbați platforma în căutare de studenți care oferă servicii la materiile dorite sau te rogi la Sfântul 5 să primești mesaj de la cineva care te descoperă și e dispus să te salveze.</p></li>
+					<li class="Patrat3"><div>
+						<p class="Numar">3</p>
+					</div>
+					<p class="scris">După ce stabiliți o sumă care oricum este de zeci de ori mai mare decât la alte universități, aștepti ca noul vostru amic să vă încarce soluția pe platformă. Jumătate din plată oferiți în avans, restul după ce vă vedeți intrat în examen.</p></li>
+				</ul>
+		</div>
+
+		<div class="Dreptunghi2">
+			<p id="Smare">Ai tupeu și crezi că poți să aduci îmbunătățiri la platformă?</p>
+			<p id="Smic">Trimite-ne un mail și roagă-te să nu ne apuce râsul când vedem ce îți trece prin cap.</p>
+			<form class="form">
+				<label for="nume" id="numel">Nume</label>
+				<input type="text" name="Nume" id="nume">
+				<label for="email" id="emaill">Email</label>
+				<input type="text" name="Email" id="email">
+				<label for="injuratura" id="injuratural">Înjurătura</label>
+				 <input id="injuratura" name="Injuratura"></input>
+			</form>
+			<button class="trimite">Trimite</button>
+		</div>
+
+		<div class="Dreptunghi3">
+			<list class="Logouri">
+				<a href="https://www.instagram.com/lsacbucuresti/"><img src="Insta.png">
+				<a href="https://twitter.com/lsacbucuresti"><img src="Twitter.png">
+				<a href="https://www.facebook.com/LsacBucuresti/"><img src="Facebook.png">
+			</list>
+			<p class="TextFinal">
+				Copyright 2020 | Cine ne pârăște o mierlește.
+			</p>
+		</div>
+
+	</body>
+</html>
